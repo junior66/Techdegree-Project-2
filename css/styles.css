@@ -7,9 +7,18 @@
     margin-top: 20px;
 }
 
+.main-nav {
+    background-color: lightskyblue;
+    padding-top: .05px;
+
+}
+
+
 .main-header {
     text-align: center;
+    
 }
+
 
 li {
     list-style: none;
