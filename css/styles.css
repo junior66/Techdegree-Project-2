@@ -1,0 +1,57 @@
+* {
+    font-family: 'Fjalla One', sans-serif;
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    margin-top: 20px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.intro-prg {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.mid-section {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+p {
+    max-width: 100%;
+    text-align: center;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.portfolio-heading {
+    margin-top: 100px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.footer-name {
+    float: left;
+}
+
+.top {
+    float: right;
+}
+
+.portfolio-unit {
+    max-width: 100%;
+}
