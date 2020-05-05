@@ -7,6 +7,10 @@
     margin-top: 20px;
 }
 
+.portfolio-heading {
+    margin-top: 100px;
+}
+
 .main-nav {
     background-color: lightskyblue;
     padding: 5px 0;
@@ -15,10 +19,11 @@
     .main-nav li {
         padding-bottom: 5px;
         list-style: none;
-        text-align: center;
+
     }
 
-.main-header {
+.main-header,
+section {
     text-align: center;
     border: 1px solid red;
 }
@@ -26,13 +31,14 @@
 .container {
     margin: 0 auto;
     max-width: 1100px;
+    text-align: center;
+    font-size: .75em;
     padding-bottom: 20px;
     border: 1px solid red;
 }
 
-.col {
+.col img {
     max-width: 100%;
-    padding-top: 5px;
 }
  
 
@@ -42,18 +48,11 @@
     display: table;
 }
 
-p {
-    text-align: center;
-}
-
 h2,
 h3 {
     text-align: center;
 }
 
-.portfolio-heading {
-    margin-top: 100px;
-}
 
 .contact {
     margin-top: 100px;
@@ -65,5 +64,55 @@ h3 {
 
 .top-footer {
     float: right;
+}
+
+.main-footer {
+    border: 1px solid red;
+}
+
+@media(min-width: 768px) {
+    .main-nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .profile-pic {
+        float: right;
+        width: 30%;
+    }
+
+    .intro-prg {
+        text-align: left;
+        display: block;
+    }
+    .col {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .name,
+    .intro-prg {
+        float: left;
+    }
+
+    .main-nav,
+    .profile-pic {
+        float: right;
+    }
+
+    .main-header {
+        max-width: 1100px;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .col {
+        float: left;
+        width: 33.33%;
+        margin:0;
+    }
+
 }
 
