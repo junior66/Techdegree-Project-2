@@ -71,6 +71,13 @@ h3 {
 }
 
 @media(min-width: 768px) {
+    .main-header,
+    .container,
+    footer {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
     .main-nav li {
         display: inline-block;
         margin: 0 10px;
@@ -83,11 +90,18 @@ h3 {
 
     .intro-prg {
         text-align: left;
-        display: block;
+        padding-left: 10px;
     }
     .col {
         float: left;
         width: 50%;
+        
+
+    }
+
+    section {
+        max-width: 60%;
+        margin: 0 auto;
     }
 }
 
