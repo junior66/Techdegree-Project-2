@@ -67,12 +67,12 @@ h3 {
     float: right;
 }
 
-.nav-foot {
-    display: none;
-}
-
 .main-footer {
     border: 1px solid red;
+}
+
+.nav-foot {
+    display: none;
 }
 
 @media(min-width: 768px) {
@@ -111,6 +111,11 @@ h3 {
     .top-foot {
         display: none;
     }
+
+.nav-foot {
+    display: inline;
+}
+
 }
 
 @media(min-width: 1024px) {
