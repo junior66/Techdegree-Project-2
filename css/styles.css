@@ -63,8 +63,12 @@ h3 {
     float: left;
 }
 
-.top-footer {
+.top-foot {
     float: right;
+}
+
+.nav-foot {
+    display: none;
 }
 
 .main-footer {
@@ -95,12 +99,17 @@ h3 {
     }
     .col {
         float: left;
-        width: calc(50% -20px)
+        width: calc(50% - 20px);
+        margin-left: 10px;
         }
 
     section {
         max-width: 70%;
         margin: 0 auto;
+    }
+
+    .top-foot {
+        display: none;
     }
 }
 
