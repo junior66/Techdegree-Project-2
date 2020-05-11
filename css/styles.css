@@ -1,11 +1,13 @@
 * {
     font-family: 'Abel', sans-serif;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .name {
     text-align: center;
 }
+
 
 .profile-pic {
     margin-top: 50px;
@@ -197,6 +199,7 @@ h3 {
         padding: 0;
         line-height: 2.5;
         float: left;
+        
     }
 
     .intro-prg {
